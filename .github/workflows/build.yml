@@ -1,10 +1,10 @@
 name: CI - Build & Prisma Check
 
 on:
-  push:
+  pull_request: 
     branches:
-      - main
-  pull_request:
+       - main
+  
 
 jobs:
   build:
