@@ -36,6 +36,6 @@ export async function Signup(data: {
   } catch (error) {
     console.error("Signup Error", error);
 
-    return { success: false, error: "Internal Server Error" };
+    return { success: false, error: "Internal Server Error---" };
   }
 }
