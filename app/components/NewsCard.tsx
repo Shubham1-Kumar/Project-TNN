@@ -62,7 +62,7 @@ export default function NewsCard({
             className="rounded-md"
             onError={(e) => {
               // Note: onError does not work with next/image for external URLs
-              console.warn("Image load error:", image);
+              console.warn("Image load error:", image , e);
             }}
           />
           </div>
